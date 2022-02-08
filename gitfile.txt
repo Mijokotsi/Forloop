@@ -1,0 +1,6 @@
+Steps to push existing repo in your device to github:
+
+1. git remote -v
+2. git remote add origin https://github.com/<your_git_username>/<repo_name>.git
+3. git branch -M master
+4. git push -u origin master
